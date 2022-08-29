@@ -1,0 +1,113 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sidebar{
+    width: 15vw;
+    height: 100vh;
+    background: rgb(255, 77, 6);
+}
+
+.sidebar .logo img{
+    width: 40%;
+    padding: 20px 0;
+}
+
+.sidebar .menu ul{
+    list-style: none;
+}
+.sidebar .menu ul li{
+    padding: 10px 20px;
+}
+
+.sidebar .menu ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.sidebar .menu ul li:hover a{
+    color: aqua;
+}
+
+.content{
+    width: 85vw;
+    background-color: #FFFFFF;
+}
+
+.porfolio{
+    
+    text-align: center;
+}
+
+.porfolio .porfolio-in{
+    width: 80vw;
+    margin: auto;
+}
+
+.porfolio .porfolio-in .one{
+    width: 25vw;
+    height: 30vh;
+    border: 1px solid red;
+    float: left;
+    overflow: hidden;
+}
+
+.porfolio .porfolio-in .two{
+    width: 25vw;
+    height: 30vh;
+    margin: 0 2%;
+    border: 1px solid red;
+    float: left;
+    overflow: hidden;
+}
+
+.porfolio .porfolio-in .three{
+    width: 25vw;
+    height: 30vh;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+
+.porfolio .porfolio-in .four{
+    width: 25vw;
+    height: 30vh;
+    border: 1px solid red;
+    margin-top: 2%;
+    float: left;
+    overflow: hidden;
+}
+
+.porfolio .porfolio-in .five{
+    width: 25vw;
+    height: 30vh;
+    border: 1px solid red;
+    margin: 0 2%;
+    margin-top: 2%;
+    float: left;
+    overflow: hidden;
+}
+
+.porfolio .porfolio-in .six{
+    width: 25vw;
+    height: 30vh;
+    border: 1px solid red;
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+.porfolio .porfolio-in img{
+    width: 40%;
+}
